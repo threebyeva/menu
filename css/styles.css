@@ -52,7 +52,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #f5f5f5;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -68,13 +68,13 @@ html {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: rgb(48, 48, 48);
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: rgb(5, 5, 5);
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -94,12 +94,12 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: rgb(24, 24, 24);
   text-decoration: none;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: rgb(8, 8, 8);
   background: none;
 }
 
