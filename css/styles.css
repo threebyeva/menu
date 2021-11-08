@@ -187,25 +187,80 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: 100%;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/cover-background.svg");
-  background-position: -250px -250px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -150px;
 }
 .masthead .container {
   height: 100%;
 }
 .masthead .image-title {
-  margin-top: 350px !important;
   width: 80% !important;
+}
+.masthead .three-girls-img {
+  padding-bottom: 100px;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .masthead .masthead-img-container {
+    padding-bottom: 6rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .masthead .masthead-img-container {
+    padding-bottom: 8rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .masthead .masthead-img-container {
+    padding-bottom: 19rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .masthead {
+    width: auto !important;
+    height: 100% !important;
+    background-size: contain;
+  }
+  .masthead .masthead-img-container {
+    padding-bottom: 20rem;
+  }
+  .masthead .image-title {
+    width: 50% !important;
+  }
+  .masthead .three-girls-img {
+    padding-bottom: 80px;
+  }
+}
+
+/* Devices below extra large device sizes */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .masthead {
+    background-position-y: -225px;
+  }
+  .masthead .masthead-img-container {
+    padding-bottom: 22rem;
+  }
+}
+
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
