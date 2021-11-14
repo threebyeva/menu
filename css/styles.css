@@ -208,6 +208,14 @@ html {
   padding: 1.25rem 2.5rem;
 }
 
+.button-close {
+  font-family: "Agrandir-Regular";
+}
+
+.modal-title{
+  font-family: "Agrandir-Regular";
+}
+
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
@@ -258,6 +266,7 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
+  z-index: -1;
   min-height: 30rem;
   position: relative;
   display: table;
