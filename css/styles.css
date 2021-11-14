@@ -1,8 +1,59 @@
+@font-face {
+  font-family: "Trirong-Light";
+  src: url(fonts/Trirong-Light.ttf);
+}
+@font-face {
+  font-family: "Agrandir-Grand-Heavy";
+  src: url("fonts/Agrandir/Agrandir Grand Heavy 800.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir-Grand-Light";
+  src: url("fonts/Agrandir/Agrandir Grand Light 300.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir-Regular";
+  src: url("fonts/Agrandir/Agrandir Regular 400.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir-Narrow";
+  src: url("fonts/Agrandir/Agrandir Narrow 400.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir-Tight";
+  src: url("fonts/Agrandir/Agrandir Tight 400.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agrandir-Thin-Italic";
+  src: url("fonts/Agrandir/Agrandir Thin Italic 100.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
 
 body,
 html {
   width: 100%;
   height: 100%;
+  font-family: "Agrandir-Grand-Light";
+}
+
+.menu-header {
+  font-family: 'Trirong-Light';
+  letter-spacing: normal;
 }
 
 .content-section {
