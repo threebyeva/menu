@@ -56,9 +56,19 @@ html {
   letter-spacing: normal;
 }
 
+.item-name {
+  font-family: "Agrandir-Regular";
+  text-align: left;
+}
+
 .item-price {
   font-family: "Agrandir-Thin-Italic";
   text-align: right;
+}
+
+.item-description {
+  font-family: "Agrandir-Regular";
+  text-align: left;
 }
 
 .content-section {
