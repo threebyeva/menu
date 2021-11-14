@@ -56,6 +56,11 @@ html {
   letter-spacing: normal;
 }
 
+.item-price {
+  font-family: "Agrandir-Thin-Italic";
+  text-align: right;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
