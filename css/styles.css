@@ -51,6 +51,23 @@ html {
   font-family: "Agrandir-Grand-Light";
 }
 
+.language-selector {
+  font-family: 'Trirong-Light';
+  font-size: 14px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  color:var(--bs-gray-600);
+  background-color: rgba(255, 255, 255, .5)
+}
+
+.language-selector:hover {
+  color:var(--bs-gray-900);
+}
+
 .menu-header {
   font-family: 'Trirong-Light';
   letter-spacing: normal;
