@@ -83,6 +83,11 @@ html {
   letter-spacing: 0.1em;
 }
 
+.item-name:hover, .item-name:active{
+  color: #e5be4f;
+  cursor: pointer;
+}
+
 .item-price {
   font-family: "Agrandir-Thin-Italic";
   text-align: right;
@@ -258,12 +263,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #e9d18c;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #e5be4f;
   text-decoration: none;
 }
 
@@ -301,7 +306,7 @@ footer.footer .social-link:hover {
 .masthead .image-title {
   width: 80% !important;
 }
-.masthead .three-girls-img {
+.masthead .three-girls-header {
   padding-bottom: 100px;
 }
 .masthead h1, .masthead .h1 {
@@ -347,7 +352,7 @@ footer.footer .social-link:hover {
   .masthead .image-title {
     width: 50% !important;
   }
-  .masthead .three-girls-img {
+  .masthead .three-girls-header {
     padding-bottom: 80px;
   }
 }
@@ -450,4 +455,8 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.three-girls-img{
+  margin: 50px auto 50px auto;
 }
