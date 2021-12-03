@@ -51,6 +51,10 @@ html {
   font-family: "Agrandir-Grand-Light";
 }
 
+.modal-body {
+  padding: 0px;
+}
+
 .language-selector {
   font-family: 'Agrandir-Regular';
   font-size: 14px;
@@ -61,7 +65,7 @@ html {
   height: 20px;
   text-align: center;
   color:var(--bs-gray-600);
-  background-color: rgba(255, 255, 255, .5)
+  background-color: rgba(255, 255, 255, 1)
 }
 
 .language-selector:hover {
@@ -73,6 +77,17 @@ html {
   letter-spacing: normal;
   font-size: 24px;
   padding-top: 30px;
+  line-height: 5px;
+}
+
+.menu-header h1 {
+  margin-bottom: 0px;
+  display: inline;
+}
+
+.menu-header i {
+  font-size: 10px;
+  display: inline;
 }
 
 .item-name {
@@ -314,15 +329,23 @@ footer.footer .social-link:hover {
   margin: 0;
   padding: 0;
 }
+
+.three-girls-img{
+  width: 25%;
+  margin: 50px auto 50px auto;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .masthead .masthead-img-container {
     padding-bottom: 6rem;
   }
   .content-section {
-    padding: 0 30px 0 30px;
+    padding: 0 10px 0 10px;
   }
-
+  .three-girls-img{
+    width: 50%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -455,8 +478,4 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.three-girls-img{
-  margin: 50px auto 50px auto;
 }
