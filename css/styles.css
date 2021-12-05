@@ -98,6 +98,16 @@ html {
   letter-spacing: 0.1em;
 }
 
+.sub-item {
+  font-family: "Agrandir-Regular";
+  font-size: 16px;
+}
+
+.sub-item p {
+  font-family: "Agrandir-Thin-Italic";
+  font-size: 15px;
+}
+
 .item-name:hover, .item-name:active{
   color: #e5be4f;
   cursor: pointer;
