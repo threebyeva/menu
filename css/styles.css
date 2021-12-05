@@ -107,7 +107,8 @@ html {
 .sub-price {
   font-family: "Agrandir-Regular";
   font-style: italic;
-  font-size: 10px !important;
+  font-size: 13px !important;
+  font-weight: 300;
 }
 
 .item-name:hover, .item-name:active{
