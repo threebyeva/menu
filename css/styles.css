@@ -104,7 +104,8 @@ html {
 }
 
 .sub-item p {
-  font-family: "Agrandir-Thin-Italic";
+  font-family: "Agrandir-Regular";
+  font-style: italic;
   font-size: 15px;
 }
 
@@ -114,7 +115,8 @@ html {
 }
 
 .item-price {
-  font-family: "Agrandir-Thin-Italic";
+  font-family: "Agrandir-Regular";
+  font-style: italic;
   text-align: right;
   font-size: 16px;
   padding-top: 15px;
