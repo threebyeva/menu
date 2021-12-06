@@ -108,10 +108,9 @@ html {
 .item-name-ar {
   font-family: "Noto-Sans-Arabic";
   text-align: right;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 18px;
   padding-top: 15px;
-  letter-spacing:  normal;
 }
 
 .sub-item {
@@ -160,7 +159,6 @@ html {
   text-align: right;
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: normal;
 }
 
 .content-section {
