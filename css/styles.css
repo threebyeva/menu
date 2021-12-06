@@ -44,6 +44,13 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Noto-Sans-Arabic";
+  src: url("fonts/NotoSansArabic-VariableFont_wdth\,wght.ttf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
 body,
 html {
   width: 100%;
@@ -99,7 +106,7 @@ html {
 }
 
 .item-name-ar {
-  font-family: "Agrandir-Regular";
+  font-family: "Noto-Sans-Arabic";
   text-align: right;
   font-size: 18px;
   padding-top: 15px;
@@ -140,7 +147,7 @@ html {
 }
 
 .item-description-ar {
-  font-family: "Agrandir-Regular";
+  font-family: "Noto-Sans-Arabic";
   text-align: right;
   font-size: 12px;
   letter-spacing: normal;
