@@ -145,6 +145,7 @@ html {
   text-align: left;
   font-size: 16px;
   padding-top: 15px;
+  letter-spacing: -0.05em;
 }
 
 .item-description {
