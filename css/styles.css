@@ -48,7 +48,7 @@
   font-family: "Noto-Sans-Arabic";
   src: url("fonts/NotoSansArabic.ttf") format("opentype");
   font-weight: 100;
-  font-style: italic;
+  font-style: normal;
 }
 
 body,
