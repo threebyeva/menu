@@ -108,6 +108,7 @@ html {
 .item-name-ar {
   font-family: "Noto-Sans-Arabic";
   text-align: right;
+  font-weight: 600;
   font-size: 18px;
   padding-top: 15px;
   letter-spacing:  normal;
@@ -149,6 +150,7 @@ html {
 .item-description-ar {
   font-family: "Noto-Sans-Arabic";
   text-align: right;
+  font-weight: 600;
   font-size: 12px;
   letter-spacing: normal;
 }
