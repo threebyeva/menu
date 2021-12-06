@@ -126,7 +126,7 @@ html {
   font-weight: 300;
 }
 
-.item-name:hover, .item-name:active{
+.item-name:hover, .item-name:active, .item-name-ar:hover, .item-name-ar:active{
   color: #e5be4f;
   cursor: pointer;
 }
