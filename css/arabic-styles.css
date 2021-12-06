@@ -1,0 +1,11 @@
+.item-name {
+    text-align: right;
+  }
+
+  .item-description {
+    text-align: right;
+  }
+
+  .menu-header h1 {
+    display: inline-flex;
+  }

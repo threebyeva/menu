@@ -92,21 +92,6 @@ html {
   display: inline;
 }
 
-.menu-header-ar {
-  letter-spacing: normal;
-  text-align: right;
-  font-size: 24px;
-  padding-top: 30px;
-  line-height: 5px;
-}
-
-.menu-header-ar h1 {
-  margin-bottom: 0px;
-  display: inline;
-  text-align: right;
-}
-
-
 .menu-header i {
   font-size: 10px;
   display: inline;
@@ -118,14 +103,6 @@ html {
   font-size: 18px;
   padding-top: 15px;
   letter-spacing:  0.1em;
-}
-
-.item-name-ar {
-  font-family: "Noto-Sans-Arabic";
-  text-align: right;
-  font-weight: 800;
-  font-size: 18px;
-  padding-top: 15px;
 }
 
 .sub-item {
@@ -141,7 +118,7 @@ html {
   font-weight: 300;
 }
 
-.item-name:hover, .item-name:active, .item-name-ar:hover, .item-name-ar:active{
+.item-name:hover, .item-name:active{
   color: #e5be4f;
   cursor: pointer;
 }
@@ -154,27 +131,11 @@ html {
   padding-top: 15px;
 }
 
-.item-price-ar {
-  font-family: "Agrandir-Regular";
-  font-style: italic;
-  text-align: left;
-  font-size: 16px;
-  padding-top: 15px;
-  letter-spacing: -0.05em;
-}
-
 .item-description {
   font-family: "Agrandir-Regular";
   text-align: left;
   font-size: 12px;
   letter-spacing: 0.1em;
-}
-
-.item-description-ar {
-  font-family: "Noto-Sans-Arabic";
-  text-align: right;
-  font-weight: 600;
-  font-size: 12px;
 }
 
 .content-section {
