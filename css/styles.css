@@ -92,6 +92,13 @@ html {
   display: inline;
 }
 
+.menu-header-ar {
+  letter-spacing: normal;
+  font-size: 24px;
+  padding-top: 30px;
+  line-height: 5px;
+}
+
 .menu-header-ar h1 {
   margin-bottom: 0px;
   display: inline;
