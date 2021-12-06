@@ -140,6 +140,14 @@ html {
   padding-top: 15px;
 }
 
+.item-price-ar {
+  font-family: "Agrandir-Regular";
+  font-style: italic;
+  text-align: left;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
 .item-description {
   font-family: "Agrandir-Regular";
   text-align: left;
