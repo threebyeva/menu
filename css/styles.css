@@ -92,6 +92,13 @@ html {
   display: inline;
 }
 
+.menu-header-ar h1 {
+  margin-bottom: 0px;
+  display: inline;
+  text-align: right;
+}
+
+
 .menu-header i {
   font-size: 10px;
   display: inline;
