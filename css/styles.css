@@ -95,7 +95,15 @@ html {
   text-align: left;
   font-size: 18px;
   padding-top: 15px;
-  letter-spacing: 0.1em;
+  letter-spacing:  0.1em;
+}
+
+.item-name-ar {
+  font-family: "Agrandir-Regular";
+  text-align: right;
+  font-size: 18px;
+  padding-top: 15px;
+  letter-spacing:  normal;
 }
 
 .sub-item {
@@ -122,6 +130,13 @@ html {
   text-align: right;
   font-size: 16px;
   padding-top: 15px;
+}
+
+.item-description {
+  font-family: "Agrandir-Regular";
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0.1em;
 }
 
 .item-description-ar {
