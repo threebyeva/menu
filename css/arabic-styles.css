@@ -1,11 +1,30 @@
+
+@font-face {
+  font-family: "Noto-Sans-Arabic";
+  src: url("fonts/NotoSansArabic.ttf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+body,
+html {
+  font-family: "Noto-Sans-Arabic";
+}
+
 .item-name {
-    text-align: right;
-  }
+  font-family: "Noto-Sans-Arabic";
+  font-weight: bold;
+  text-align: right;
+}
 
-  .item-description {
-    text-align: right;
-  }
+.item-description {
+  font-family: "Noto-Sans-Arabic";
+  text-align: right;
+  font-weight: bold;
+}
 
-  .menu-header h1 {
-    display: inline-flex;
-  }
+.menu-header h1 {
+  font-family: "Noto-Sans-Arabic";
+  font-weight: bold;
+  display: inline-flex;
+}

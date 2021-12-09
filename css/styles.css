@@ -44,13 +44,6 @@
   font-style: italic;
 }
 
-@font-face {
-  font-family: "Noto-Sans-Arabic";
-  src: url("fonts/NotoSansArabic.ttf") format("opentype");
-  font-weight: 100;
-  font-style: normal;
-}
-
 body,
 html {
   width: 100%;
